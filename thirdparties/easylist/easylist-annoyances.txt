@@ -108,46 +108,7 @@
 ! sounds
 /popup-builder/public/sound/*
 ! ---------- Scroll To Top Buttons ----------
-/avada-to-top.js
-/back-top-btn.png
-/back_to_top.js
-/back_to_top_$~stylesheet
-/bt_pagetop.gif
-/bt_pagetop.png
-/btn_back2top.png
-/btn_gotop.gif
-/btn_gotop.png
-/btn_pagetop.gif
-/btn_pagetop.png
-/button_to_top.png
-/csBackToTop.js
-/dynamic.to.top.min.js
-/hs.go-to.js
-/hs.go-to.min.js
-/ic_pagetop.png
-/ic_pagetop.svg
-/icon_gototop.png
-/icon_scrollup.svg
-/plugins/wp-scroll-to-top/scr_js.js
-/sbtt.js
-/scroll-to-top.png
-/scroll-to-top/*$~stylesheet
-/scroll-top-and-bottom/*
-/scroll-top.jpg
-/scroll-top.js
-/scroll-top.png
-/scroll_top.png
-/scroll_top.svg
-/scrollBtnTop.png
-/scrolltopcontrol.js
-/scrollToTop.png
-/scrollup_button.js
-/simple-back-to-top//js/sbtt.js
-/to_pagetop.png
-/topbutton.js
-/ui.totop_.png
-/wpfront-scroll-top.min.js
-_backToTop.
+
 ! Test filters for embeded/in-article video ads
 /banner/videos/player.htm?$subdocument
 /plugin/banner/videos/*$subdocument
