@@ -107,7 +107,7 @@ techpp.com##section.brxe-section > div[class="brxe-container"] .adsbygoogle:upwa
 streamtb.me##+js(nowoif)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/16453
-*$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|googleapis.com|jsdelivr.net|stripst.com|strpst.com|datatables.net|jwpcdn.com,domain=javplayer.org|pubjav.com|sextb.net|sextb.xyz
+*$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|googleapis.com|jsdelivr.net|stripst.com|strpst.com|datatables.net|jwpcdn.com,domain=javplayer.org|pubjav.com|sextb.net|sextb.date
 
 ! https://github.com/easylist/easylist/pull/14565
 jizzbunker2.com##.partner-site
@@ -1195,7 +1195,8 @@ gledaitv.*##+js(acs, fetch, adsBlocked)
 *$script,redirect-rule=noopjs,domain=bg-gledai.*|gledaitv.*
 ||adapex.io^$script,redirect=noopjs,domain=bg-gledai.video|gledaitv.fan
 ! https://github.com/uBlockOrigin/uAssets/issues/29059
-cdn.bg-gledai.*##+js(aeld, DOMContentLoaded, .textContent)
+! https://www.reddit.com/r/uBlockOrigin/comments/1m9zkni/adblock_detected_site_gledaitvfan/
+cdn.bg-gledai.*,cdn.gledaitv.*##+js(aeld, DOMContentLoaded, .textContent)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/145897
 pervclips.com##+js(aopr, decodeURI)

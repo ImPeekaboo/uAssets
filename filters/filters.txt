@@ -661,6 +661,13 @@ wcoanimedub.tv,wcoforever.net##+js(nostif, google_jobrunner)
 wcoforever.net##.anti-ad
 wcoforever.net###sidebar_r1
 @@||embed.watchanimesub.net^$script,1p
+! https://github.com/uBlockOrigin/uAssets/issues/29349
+@@||embed.wcostream.com^$ghide
+!#if cap_html_filtering
+embed.wcostream.com##^script:has-text(/google_jobrunner|blockAdBlock/)
+!#else
+embed.wcostream.com##+js(rmnt, script, /google_jobrunner|blockAdBlock/)
+!#endif
 
 ! https://github.com/uBlockOrigin/uAssets/issues/331
 ! https://github.com/uBlockOrigin/uAssets/issues/10133
@@ -2920,7 +2927,7 @@ yourlust.com##+js(aopr, ExoLoader.serve)
 yourlust.com##+js(aeld, getexoloader)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/719
-twitch.tv##+js(nowoif, amazon-adsystem)
+www.twitch.tv##+js(nowoif, !twitch.tv)
 ||amazon-adsystem.com/aax2/apstag.js$script,domain=twitch.tv,important
 ||ddacn6pr5v0tl.cloudfront.net^
 ! https://github.com/uBlockOrigin/uAssets/issues/5184#issuecomment-1960744541
